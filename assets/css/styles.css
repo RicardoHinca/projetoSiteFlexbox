@@ -3,6 +3,9 @@
     padding: 0px;
     font-family: Arial;
 }
+body{
+    margin-bottom: 200px;
+}
 
 /* --------------- ***** HEADER CABECALHO LOGO E MENU ***** -------------- */
 
@@ -172,7 +175,7 @@ nav a:hover {
     margin-top: 10px;
 }
 
-.widget_body{
+.widget_body_departments{
 display: flex;
 flex-wrap: wrap;
 gap: 30px;
@@ -184,4 +187,39 @@ gap: 30px;
     height: 150px;
 }
 
+.widget_body_text{
+    font-size: 13px;
+}
 
+.widget_body_contato{
+    font-size: 12px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+
+.widget_body_barra{
+    border-bottom: 1px solid #CCCCCC;
+    padding-bottom: 3px;
+    
+}
+
+.phone,
+.email,
+.contact {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    color: #888888;
+}
+
+.widget_body_contato a {
+    text-decoration: none;
+}
+
+.widget_body_contato b {
+    color: black;
+}
+
+.widget_body_contato i {
+    margin-right: 5px;
+}
